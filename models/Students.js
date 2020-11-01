@@ -11,7 +11,8 @@ const StudentsSchema = mongoose.Schema({
 
     Gender:
 {
-    type: String
+    type: String,
+    required: true
 }
 ,
 
